@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8fc9c9609c52a14ca81a21f059af1f5, type: 3}
+  m_Name: HARD_Hacker
+  m_EditorClassIdentifier: 
+  BulletPrefab: {fileID: 1829219456463665814, guid: 1494e0a2cc516c743bad90c8bd8e3a03, type: 3}
+  BulletSpeed: 8
+  BulletRange: 8
+  BulletsPerShot: 8
+  BulletSpreadAngle: 0.75
+  ShootCooldown: 3
+  ShootRange: 15

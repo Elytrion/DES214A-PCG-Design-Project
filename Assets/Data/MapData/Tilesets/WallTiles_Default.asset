@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85230ad62c0f78f47b95c1dfd32aed70, type: 3}
+  m_Name: WallTiles_Default
+  m_EditorClassIdentifier: 
+  TilesToUse:
+  - TileDirection: 15
+    TileToUse: {fileID: 11400000, guid: 54a0e9b7adc6e704d8cb79a324394f46, type: 2}
+  - TileDirection: 2
+    TileToUse: {fileID: 11400000, guid: e0330ad6bf0716b4cbf1d9f84372a00a, type: 2}
+  - TileDirection: 8
+    TileToUse: {fileID: 11400000, guid: a74e969fbc9a78c43be6368e2329e0a3, type: 2}
+  - TileDirection: 12
+    TileToUse: {fileID: 11400000, guid: 54a0e9b7adc6e704d8cb79a324394f46, type: 2}
+  - TileDirection: 9
+    TileToUse: {fileID: 11400000, guid: 2e48b6ad5ba08af4ca87e70d11ba1b0a, type: 2}
+  - TileDirection: 6
+    TileToUse: {fileID: 11400000, guid: 54a0e9b7adc6e704d8cb79a324394f46, type: 2}
+  - TileDirection: 3
+    TileToUse: {fileID: 11400000, guid: 6291f8f8f97126044801df2c315eb5eb, type: 2}
+  - TileDirection: 1
+    TileToUse: {fileID: 11400000, guid: e5a183cb000f9e14b851337c68253e21, type: 2}

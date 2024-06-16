@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fa8288ab4e6a8a4da840b8fce1cbab1, type: 3}
+  m_Name: PowerupSet
+  m_EditorClassIdentifier: 
+  AllPowerups:
+  - PowerupType: {fileID: 11400000, guid: 0ca690ec8719ce846aabaf72f57e2b65, type: 2}
+    PowerupSprite: {fileID: 1423235056, guid: 9489df4557aac6948acb9253c3a84727, type: 3}
+    SpawnWeight: 50
+  - PowerupType: {fileID: 11400000, guid: 4491dbc9ebaa3e747bdb35b44711b4b4, type: 2}
+    PowerupSprite: {fileID: -554368730, guid: 9489df4557aac6948acb9253c3a84727, type: 3}
+    SpawnWeight: 50
+  - PowerupType: {fileID: 11400000, guid: f941fb38012bf7e49bbe0a7bb6f10549, type: 2}
+    PowerupSprite: {fileID: 550149978, guid: 9489df4557aac6948acb9253c3a84727, type: 3}
+    SpawnWeight: 250
+  - PowerupType: {fileID: 11400000, guid: 0aad83f599f02ca419f393009aaf8e85, type: 2}
+    PowerupSprite: {fileID: -752256587, guid: 9489df4557aac6948acb9253c3a84727, type: 3}
+    SpawnWeight: 50
+  - PowerupType: {fileID: 11400000, guid: f137bd56e4f3e3248be2d0920c368bdb, type: 2}
+    PowerupSprite: {fileID: 566146766, guid: 9489df4557aac6948acb9253c3a84727, type: 3}
+    SpawnWeight: 50
+  BasePowerupPrefab: {fileID: 6877143123288932931, guid: f6309afd567601a4eb48552c0d78c94e, type: 3}

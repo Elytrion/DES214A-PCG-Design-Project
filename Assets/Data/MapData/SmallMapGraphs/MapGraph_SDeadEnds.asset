@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b9f3ae32198b704f84d1a4045118852, type: 3}
+  m_Name: MapGraph_SDeadEnds
+  m_EditorClassIdentifier: 
+  Nodes:
+  - ID: 1
+    Neighbors:
+    - 2
+  - ID: 2
+    Neighbors:
+    - 3
+    - 4
+  - ID: 3
+    Neighbors:
+    - 5
+    - 6
+  - ID: 4
+    Neighbors: []
+  - ID: 5
+    Neighbors: []
+  - ID: 6
+    Neighbors:
+    - 7
+    - 8
+  - ID: 7
+    Neighbors: []
+  - ID: 8
+    Neighbors:
+    - 9
+  - ID: 9
+    Neighbors: []

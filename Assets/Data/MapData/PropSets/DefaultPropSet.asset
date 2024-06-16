@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 904a9ead528e3404d8fd9438b0bd51da, type: 3}
+  m_Name: DefaultPropSet
+  m_EditorClassIdentifier: 
+  AllPropTypes:
+  - PropData:
+      TileSize: {x: 1, y: 1}
+      Prop: {fileID: 939578146112743466, guid: ca87fd683f52f294d88267e1f27c2998, type: 3}
+      NeedsWall: 1
+      IsASpawnpoint: 0
+      RequiredSpacing: 0
+    SpawnCount: 4
+  - PropData:
+      TileSize: {x: 2, y: 2}
+      Prop: {fileID: 3327358876869205724, guid: 168e4489487c7ed4a88447a101cdfa32, type: 3}
+      NeedsWall: 0
+      IsASpawnpoint: 0
+      RequiredSpacing: 1
+    SpawnCount: 2
+  - PropData:
+      TileSize: {x: 1, y: 1}
+      Prop: {fileID: 6270349968781821215, guid: b4660508d45aa5d45a4f20de3d97e8af, type: 3}
+      NeedsWall: 0
+      IsASpawnpoint: 0
+      RequiredSpacing: 1
+    SpawnCount: 4
+  - PropData:
+      TileSize: {x: 1, y: 1}
+      Prop: {fileID: 3075986443931468270, guid: a19a47c3fc237bf418d9c3e6c00f3844, type: 3}
+      NeedsWall: 0
+      IsASpawnpoint: 1
+      RequiredSpacing: 0
+    SpawnCount: 5

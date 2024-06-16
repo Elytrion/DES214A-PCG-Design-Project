@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 904a9ead528e3404d8fd9438b0bd51da, type: 3}
+  m_Name: BossRoom
+  m_EditorClassIdentifier: 
+  AllPropTypes:
+  - PropData:
+      TileSize: {x: 2, y: 1}
+      Prop: {fileID: 4456356426667617103, guid: b44ac6341302716479b59a34fdd287fe, type: 3}
+      NeedsWall: 0
+      IsASpawnpoint: 0
+      RequiredSpacing: 1
+    SpawnCount: 2
+  - PropData:
+      TileSize: {x: 2, y: 1}
+      Prop: {fileID: 84417394101290447, guid: b0cb027c1ad9d7647b84cc1c0c6c31ac, type: 3}
+      NeedsWall: 0
+      IsASpawnpoint: 0
+      RequiredSpacing: 1
+    SpawnCount: 2
+  - PropData:
+      TileSize: {x: 1, y: 1}
+      Prop: {fileID: 5348635787750078138, guid: d89cd406571485143b4b3027f86f2657, type: 3}
+      NeedsWall: 0
+      IsASpawnpoint: 0
+      RequiredSpacing: 0
+    SpawnCount: 3
+  - PropData:
+      TileSize: {x: 1, y: 1}
+      Prop: {fileID: 6661470584797172585, guid: ac2606819ea4314418881478babe0785, type: 3}
+      NeedsWall: 0
+      IsASpawnpoint: 0
+      RequiredSpacing: 0
+    SpawnCount: 3
+  - PropData:
+      TileSize: {x: 1, y: 1}
+      Prop: {fileID: 1704390877959469380, guid: 85984a54b12db26458e258baa98b30e6, type: 3}
+      NeedsWall: 0
+      IsASpawnpoint: 0
+      RequiredSpacing: 0
+    SpawnCount: 2
+  - PropData:
+      TileSize: {x: 1, y: 1}
+      Prop: {fileID: 8669395507051511135, guid: 3100f056d963c334b9b7b2e15b092ad7, type: 3}
+      NeedsWall: 0
+      IsASpawnpoint: 0
+      RequiredSpacing: 1
+    SpawnCount: 2
+  - PropData:
+      TileSize: {x: 1, y: 2}
+      Prop: {fileID: 8141894084047300960, guid: 9851ed334f7b083469343a23de09b1ab, type: 3}
+      NeedsWall: 1
+      IsASpawnpoint: 0
+      RequiredSpacing: 0
+    SpawnCount: 4
+  - PropData:
+      TileSize: {x: 1, y: 2}
+      Prop: {fileID: 536072494955190369, guid: be59c1903ae07f045a4ce6cfb41021dc, type: 3}
+      NeedsWall: 1
+      IsASpawnpoint: 0
+      RequiredSpacing: 0
+    SpawnCount: 4
+  - PropData:
+      TileSize: {x: 1, y: 1}
+      Prop: {fileID: 6488507739755023545, guid: b45378c319e949a4cbd1c2e09e621541, type: 3}
+      NeedsWall: 0
+      IsASpawnpoint: 0
+      RequiredSpacing: 0
+    SpawnCount: 2
+  - PropData:
+      TileSize: {x: 1, y: 2}
+      Prop: {fileID: 5301913505823350236, guid: 009319c66789c8a4390cb5740560ea93, type: 3}
+      NeedsWall: 1
+      IsASpawnpoint: 0
+      RequiredSpacing: 0
+    SpawnCount: 2
+  - PropData:
+      TileSize: {x: 1, y: 1}
+      Prop: {fileID: 7885419490853626077, guid: 0fc14da9adeaf394eb10672123a70c01, type: 3}
+      NeedsWall: 0
+      IsASpawnpoint: 0
+      RequiredSpacing: 0
+    SpawnCount: 2
+  - PropData:
+      TileSize: {x: 1, y: 1}
+      Prop: {fileID: 8017300778610525258, guid: 2c519a8aa97f500489f10caa9da03170, type: 3}
+      NeedsWall: 0
+      IsASpawnpoint: 0
+      RequiredSpacing: 0
+    SpawnCount: 2
+  - PropData:
+      TileSize: {x: 1, y: 1}
+      Prop: {fileID: 5917115360573605045, guid: 9af38e66e7b9df84d98848ad99bfd074, type: 3}
+      NeedsWall: 0
+      IsASpawnpoint: 0
+      RequiredSpacing: 0
+    SpawnCount: 2

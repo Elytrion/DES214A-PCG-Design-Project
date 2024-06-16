@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acc9386021b83614195e79454721e121, type: 3}
+  m_Name: DefaultRoomSet
+  m_EditorClassIdentifier: 
+  AllRoomTypes:
+  - TypeID: 1
+    AllRoomsOfType:
+    - RoomPrefab: {fileID: 2702033298165904975, guid: 6b48f0f5805451a428ef9d1894d1ac45, type: 3}
+      RoomModule: {fileID: 2702033298165904974, guid: 6b48f0f5805451a428ef9d1894d1ac45, type: 3}
+  - TypeID: 2
+    AllRoomsOfType:
+    - RoomPrefab: {fileID: 2702033298165904975, guid: 6b48f0f5805451a428ef9d1894d1ac45, type: 3}
+      RoomModule: {fileID: 2702033298165904974, guid: 6b48f0f5805451a428ef9d1894d1ac45, type: 3}
+  - TypeID: 3
+    AllRoomsOfType:
+    - RoomPrefab: {fileID: 2702033298165904975, guid: 6b48f0f5805451a428ef9d1894d1ac45, type: 3}
+      RoomModule: {fileID: 2702033298165904974, guid: 6b48f0f5805451a428ef9d1894d1ac45, type: 3}
+  - TypeID: 4
+    AllRoomsOfType:
+    - RoomPrefab: {fileID: 2702033298165904975, guid: 6b48f0f5805451a428ef9d1894d1ac45, type: 3}
+      RoomModule: {fileID: 2702033298165904974, guid: 6b48f0f5805451a428ef9d1894d1ac45, type: 3}
+  - TypeID: 5
+    AllRoomsOfType:
+    - RoomPrefab: {fileID: 2702033298165904975, guid: 6b48f0f5805451a428ef9d1894d1ac45, type: 3}
+      RoomModule: {fileID: 2702033298165904974, guid: 6b48f0f5805451a428ef9d1894d1ac45, type: 3}
+  - TypeID: 6
+    AllRoomsOfType:
+    - RoomPrefab: {fileID: 2702033298165904975, guid: 6b48f0f5805451a428ef9d1894d1ac45, type: 3}
+      RoomModule: {fileID: 2702033298165904974, guid: 6b48f0f5805451a428ef9d1894d1ac45, type: 3}
+  - TypeID: 7
+    AllRoomsOfType:
+    - RoomPrefab: {fileID: 2702033298165904975, guid: 6b48f0f5805451a428ef9d1894d1ac45, type: 3}
+      RoomModule: {fileID: 2702033298165904974, guid: 6b48f0f5805451a428ef9d1894d1ac45, type: 3}
+  - TypeID: 8
+    AllRoomsOfType:
+    - RoomPrefab: {fileID: 2702033298165904975, guid: 6b48f0f5805451a428ef9d1894d1ac45, type: 3}
+      RoomModule: {fileID: 2702033298165904974, guid: 6b48f0f5805451a428ef9d1894d1ac45, type: 3}
+  - TypeID: 9
+    AllRoomsOfType:
+    - RoomPrefab: {fileID: 2702033298165904975, guid: 6b48f0f5805451a428ef9d1894d1ac45, type: 3}
+      RoomModule: {fileID: 2702033298165904974, guid: 6b48f0f5805451a428ef9d1894d1ac45, type: 3}
+  - TypeID: 10
+    AllRoomsOfType:
+    - RoomPrefab: {fileID: 2702033298165904975, guid: 6b48f0f5805451a428ef9d1894d1ac45, type: 3}
+      RoomModule: {fileID: 2702033298165904974, guid: 6b48f0f5805451a428ef9d1894d1ac45, type: 3}
+  AllExtraRooms: []

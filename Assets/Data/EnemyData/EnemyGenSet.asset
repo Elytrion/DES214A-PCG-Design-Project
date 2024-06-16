@@ -1,0 +1,180 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a905089b83eb714e8c8e97b8d536234, type: 3}
+  m_Name: EnemyGenSet
+  m_EditorClassIdentifier: 
+  AllBodyTypes:
+  - Difficulty: 1
+    BodySprites:
+    - {fileID: 1445419408, guid: 540498b0905a4a547a5ef558c9e1d1af, type: 3}
+    - {fileID: -1287277400, guid: 540498b0905a4a547a5ef558c9e1d1af, type: 3}
+    - {fileID: 1657322754, guid: 540498b0905a4a547a5ef558c9e1d1af, type: 3}
+    - {fileID: 18523195, guid: 540498b0905a4a547a5ef558c9e1d1af, type: 3}
+  - Difficulty: 2
+    BodySprites:
+    - {fileID: 1061511906, guid: 540498b0905a4a547a5ef558c9e1d1af, type: 3}
+    - {fileID: -1128812700, guid: 540498b0905a4a547a5ef558c9e1d1af, type: 3}
+    - {fileID: -1091235020, guid: 540498b0905a4a547a5ef558c9e1d1af, type: 3}
+    - {fileID: -119164974, guid: 540498b0905a4a547a5ef558c9e1d1af, type: 3}
+  - Difficulty: 3
+    BodySprites:
+    - {fileID: -845282931, guid: 540498b0905a4a547a5ef558c9e1d1af, type: 3}
+    - {fileID: -1486316523, guid: 540498b0905a4a547a5ef558c9e1d1af, type: 3}
+    - {fileID: 750005579, guid: 540498b0905a4a547a5ef558c9e1d1af, type: 3}
+    - {fileID: 1777775869, guid: 540498b0905a4a547a5ef558c9e1d1af, type: 3}
+  AllEnemyTypes:
+  - Difficulty: 1
+    EnemyLogics:
+    - MovementLogic: {fileID: 11400000, guid: 5eb0954232f3aa944b07adc1f89d901b, type: 2}
+      AttackLogic: {fileID: 11400000, guid: 222daaa7ce4e99d4eb70da623065324c, type: 2}
+      BodySprite: {fileID: 1680289288, guid: 540498b0905a4a547a5ef558c9e1d1af, type: 3}
+      AttackSprite: {fileID: 0}
+      FullBodySprite: {fileID: 0}
+    - MovementLogic: {fileID: 11400000, guid: 6400a1a9da667f449a9da2dbdef481a3, type: 2}
+      AttackLogic: {fileID: 11400000, guid: 143423fc8f8bb08468a92f27f77b5971, type: 2}
+      BodySprite: {fileID: 1680289288, guid: 540498b0905a4a547a5ef558c9e1d1af, type: 3}
+      AttackSprite: {fileID: 0}
+      FullBodySprite: {fileID: 0}
+    - MovementLogic: {fileID: 11400000, guid: c097823d8bef90d4d88edcdb2da729b7, type: 2}
+      AttackLogic: {fileID: 11400000, guid: 222daaa7ce4e99d4eb70da623065324c, type: 2}
+      BodySprite: {fileID: 1680289288, guid: 540498b0905a4a547a5ef558c9e1d1af, type: 3}
+      AttackSprite: {fileID: 0}
+      FullBodySprite: {fileID: 0}
+    - MovementLogic: {fileID: 11400000, guid: c097823d8bef90d4d88edcdb2da729b7, type: 2}
+      AttackLogic: {fileID: 11400000, guid: 19840c652de711c48b724290b67a4ed6, type: 2}
+      BodySprite: {fileID: 1680289288, guid: 540498b0905a4a547a5ef558c9e1d1af, type: 3}
+      AttackSprite: {fileID: -877825238, guid: 18d1b18b2d0ce9b4caa4eee9392a6037, type: 3}
+      FullBodySprite: {fileID: 0}
+    - MovementLogic: {fileID: 11400000, guid: 6400a1a9da667f449a9da2dbdef481a3, type: 2}
+      AttackLogic: {fileID: 11400000, guid: 19840c652de711c48b724290b67a4ed6, type: 2}
+      BodySprite: {fileID: 1680289288, guid: 540498b0905a4a547a5ef558c9e1d1af, type: 3}
+      AttackSprite: {fileID: -877825238, guid: 18d1b18b2d0ce9b4caa4eee9392a6037, type: 3}
+      FullBodySprite: {fileID: 0}
+  - Difficulty: 2
+    EnemyLogics:
+    - MovementLogic: {fileID: 11400000, guid: 7e8bd10ad7d45474aa081af46b863119, type: 2}
+      AttackLogic: {fileID: 11400000, guid: 60f5126f76673ca4c88855536588ecf9, type: 2}
+      BodySprite: {fileID: 1680289288, guid: 540498b0905a4a547a5ef558c9e1d1af, type: 3}
+      AttackSprite: {fileID: -563071951, guid: 18d1b18b2d0ce9b4caa4eee9392a6037, type: 3}
+      FullBodySprite: {fileID: -1087290058, guid: 18d1b18b2d0ce9b4caa4eee9392a6037, type: 3}
+    - MovementLogic: {fileID: 11400000, guid: aad7c67e33be11746809dbf270f6cfa5, type: 2}
+      AttackLogic: {fileID: 11400000, guid: 6065741eb9169ca4193094b905916d32, type: 2}
+      BodySprite: {fileID: 1680289288, guid: 540498b0905a4a547a5ef558c9e1d1af, type: 3}
+      AttackSprite: {fileID: 0}
+      FullBodySprite: {fileID: 1071812404, guid: 18d1b18b2d0ce9b4caa4eee9392a6037, type: 3}
+    - MovementLogic: {fileID: 11400000, guid: 025de73d12a251444b7ef0072ed91e61, type: 2}
+      AttackLogic: {fileID: 11400000, guid: 0b4b440b994c4244d8cde352bd2e7f28, type: 2}
+      BodySprite: {fileID: 1680289288, guid: 540498b0905a4a547a5ef558c9e1d1af, type: 3}
+      AttackSprite: {fileID: 21300000, guid: 1c542565ab0cde349aae1c6833461771, type: 3}
+      FullBodySprite: {fileID: 401776167, guid: 18d1b18b2d0ce9b4caa4eee9392a6037, type: 3}
+    - MovementLogic: {fileID: 11400000, guid: c097823d8bef90d4d88edcdb2da729b7, type: 2}
+      AttackLogic: {fileID: 11400000, guid: f168f17c7edb790468bb476e41b37add, type: 2}
+      BodySprite: {fileID: 1680289288, guid: 540498b0905a4a547a5ef558c9e1d1af, type: 3}
+      AttackSprite: {fileID: 0}
+      FullBodySprite: {fileID: -699293115, guid: 18d1b18b2d0ce9b4caa4eee9392a6037, type: 3}
+    - MovementLogic: {fileID: 11400000, guid: 025de73d12a251444b7ef0072ed91e61, type: 2}
+      AttackLogic: {fileID: 11400000, guid: 8ef8ce7c566031c45a4c2dce5a3f1ef3, type: 2}
+      BodySprite: {fileID: 1680289288, guid: 540498b0905a4a547a5ef558c9e1d1af, type: 3}
+      AttackSprite: {fileID: 0}
+      FullBodySprite: {fileID: 0}
+    - MovementLogic: {fileID: 11400000, guid: 5eb0954232f3aa944b07adc1f89d901b, type: 2}
+      AttackLogic: {fileID: 11400000, guid: 8ef8ce7c566031c45a4c2dce5a3f1ef3, type: 2}
+      BodySprite: {fileID: 1680289288, guid: 540498b0905a4a547a5ef558c9e1d1af, type: 3}
+      AttackSprite: {fileID: 0}
+      FullBodySprite: {fileID: 0}
+    - MovementLogic: {fileID: 11400000, guid: 025de73d12a251444b7ef0072ed91e61, type: 2}
+      AttackLogic: {fileID: 11400000, guid: ae12a091e6f92ca4d97fab1350285706, type: 2}
+      BodySprite: {fileID: 1680289288, guid: 540498b0905a4a547a5ef558c9e1d1af, type: 3}
+      AttackSprite: {fileID: 1957789571, guid: 18d1b18b2d0ce9b4caa4eee9392a6037, type: 3}
+      FullBodySprite: {fileID: 0}
+  - Difficulty: 3
+    EnemyLogics:
+    - MovementLogic: {fileID: 11400000, guid: 80eac96bd758103449ba0c0a4931cde9, type: 2}
+      AttackLogic: {fileID: 11400000, guid: 46ca77cadae73f445aef8c3aa3cb59fc, type: 2}
+      BodySprite: {fileID: 1680289288, guid: 540498b0905a4a547a5ef558c9e1d1af, type: 3}
+      AttackSprite: {fileID: 0}
+      FullBodySprite: {fileID: 0}
+    - MovementLogic: {fileID: 11400000, guid: 80eac96bd758103449ba0c0a4931cde9, type: 2}
+      AttackLogic: {fileID: 11400000, guid: 745c466b4033f43468b043f7c01ee67e, type: 2}
+      BodySprite: {fileID: 1680289288, guid: 540498b0905a4a547a5ef558c9e1d1af, type: 3}
+      AttackSprite: {fileID: -445892472, guid: 18d1b18b2d0ce9b4caa4eee9392a6037, type: 3}
+      FullBodySprite: {fileID: 0}
+    - MovementLogic: {fileID: 11400000, guid: 39b6a1f29c233ea4998777fb0c2e572d, type: 2}
+      AttackLogic: {fileID: 11400000, guid: 458ba69a2abc25648a1ba4c5ffb47224, type: 2}
+      BodySprite: {fileID: 1680289288, guid: 540498b0905a4a547a5ef558c9e1d1af, type: 3}
+      AttackSprite: {fileID: 0}
+      FullBodySprite: {fileID: 1426346878, guid: 18d1b18b2d0ce9b4caa4eee9392a6037, type: 3}
+    - MovementLogic: {fileID: 11400000, guid: a39fad3c45b579a4e9cd1a14635c99e9, type: 2}
+      AttackLogic: {fileID: 11400000, guid: 8a37def7343da7f4d97a1ce71eb09434, type: 2}
+      BodySprite: {fileID: 1680289288, guid: 540498b0905a4a547a5ef558c9e1d1af, type: 3}
+      AttackSprite: {fileID: 2065405764, guid: 18d1b18b2d0ce9b4caa4eee9392a6037, type: 3}
+      FullBodySprite: {fileID: -1109673951, guid: 18d1b18b2d0ce9b4caa4eee9392a6037, type: 3}
+    - MovementLogic: {fileID: 11400000, guid: a39fad3c45b579a4e9cd1a14635c99e9, type: 2}
+      AttackLogic: {fileID: 11400000, guid: 8206075c4b35248469ec743813774e73, type: 2}
+      BodySprite: {fileID: 1680289288, guid: 540498b0905a4a547a5ef558c9e1d1af, type: 3}
+      AttackSprite: {fileID: 2065405764, guid: 18d1b18b2d0ce9b4caa4eee9392a6037, type: 3}
+      FullBodySprite: {fileID: 0}
+    - MovementLogic: {fileID: 11400000, guid: c097823d8bef90d4d88edcdb2da729b7, type: 2}
+      AttackLogic: {fileID: 11400000, guid: 3e7b35f4dde1b7646b4e3e2ee380b30e, type: 2}
+      BodySprite: {fileID: 1680289288, guid: 540498b0905a4a547a5ef558c9e1d1af, type: 3}
+      AttackSprite: {fileID: 1048254419, guid: 18d1b18b2d0ce9b4caa4eee9392a6037, type: 3}
+      FullBodySprite: {fileID: -71695968, guid: 18d1b18b2d0ce9b4caa4eee9392a6037, type: 3}
+    - MovementLogic: {fileID: 11400000, guid: 62f195555e9ea5541a37b7ec52ed49ae, type: 2}
+      AttackLogic: {fileID: 11400000, guid: 8ef8ce7c566031c45a4c2dce5a3f1ef3, type: 2}
+      BodySprite: {fileID: 1680289288, guid: 540498b0905a4a547a5ef558c9e1d1af, type: 3}
+      AttackSprite: {fileID: 0}
+      FullBodySprite: {fileID: 0}
+    - MovementLogic: {fileID: 11400000, guid: 80eac96bd758103449ba0c0a4931cde9, type: 2}
+      AttackLogic: {fileID: 11400000, guid: 745c466b4033f43468b043f7c01ee67e, type: 2}
+      BodySprite: {fileID: 1680289288, guid: 540498b0905a4a547a5ef558c9e1d1af, type: 3}
+      AttackSprite: {fileID: -445892472, guid: 18d1b18b2d0ce9b4caa4eee9392a6037, type: 3}
+      FullBodySprite: {fileID: 0}
+    - MovementLogic: {fileID: 11400000, guid: 62f195555e9ea5541a37b7ec52ed49ae, type: 2}
+      AttackLogic: {fileID: 11400000, guid: 46ca77cadae73f445aef8c3aa3cb59fc, type: 2}
+      BodySprite: {fileID: 1680289288, guid: 540498b0905a4a547a5ef558c9e1d1af, type: 3}
+      AttackSprite: {fileID: 0}
+      FullBodySprite: {fileID: 0}
+  AllSpecialTypes:
+  - Difficulty: 1
+    SpecialLogics:
+    - SpecialLogic: {fileID: 0}
+      OverlaySprite: {fileID: 0}
+      ChanceToHave: 1
+    - SpecialLogic: {fileID: 11400000, guid: fb755abdfc125334aa25d9d7a1cf3b9d, type: 2}
+      OverlaySprite: {fileID: -2111902287, guid: 18d1b18b2d0ce9b4caa4eee9392a6037, type: 3}
+      ChanceToHave: 0
+    - SpecialLogic: {fileID: 11400000, guid: e092f2f7a21e45145b27add8095f0e94, type: 2}
+      OverlaySprite: {fileID: -315151336, guid: 18d1b18b2d0ce9b4caa4eee9392a6037, type: 3}
+      ChanceToHave: 0
+  - Difficulty: 2
+    SpecialLogics:
+    - SpecialLogic: {fileID: 0}
+      OverlaySprite: {fileID: 0}
+      ChanceToHave: 80
+    - SpecialLogic: {fileID: 11400000, guid: fb755abdfc125334aa25d9d7a1cf3b9d, type: 2}
+      OverlaySprite: {fileID: -2111902287, guid: 18d1b18b2d0ce9b4caa4eee9392a6037, type: 3}
+      ChanceToHave: 10
+    - SpecialLogic: {fileID: 11400000, guid: e092f2f7a21e45145b27add8095f0e94, type: 2}
+      OverlaySprite: {fileID: -315151336, guid: 18d1b18b2d0ce9b4caa4eee9392a6037, type: 3}
+      ChanceToHave: 10
+  - Difficulty: 3
+    SpecialLogics:
+    - SpecialLogic: {fileID: 0}
+      OverlaySprite: {fileID: 0}
+      ChanceToHave: 70
+    - SpecialLogic: {fileID: 11400000, guid: fb755abdfc125334aa25d9d7a1cf3b9d, type: 2}
+      OverlaySprite: {fileID: -2111902287, guid: 18d1b18b2d0ce9b4caa4eee9392a6037, type: 3}
+      ChanceToHave: 15
+    - SpecialLogic: {fileID: 11400000, guid: e092f2f7a21e45145b27add8095f0e94, type: 2}
+      OverlaySprite: {fileID: -315151336, guid: 18d1b18b2d0ce9b4caa4eee9392a6037, type: 3}
+      ChanceToHave: 15
+  BaseEnemyPrefab: {fileID: 2453074669967801828, guid: ace370d76a99055449ddbf7aa0b7bfac, type: 3}
